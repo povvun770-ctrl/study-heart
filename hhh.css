@@ -1,0 +1,35 @@
+ body {
+     display: flex;
+     height: 100vh;
+     justify-content: center;
+     align-items: center;
+     font-family: Arial, sans-serif;
+     background-color: #f0f0f0;
+ }
+ 
+ form {
+     border: 1px solid #ccc;
+     padding: 30px;
+     border-radius: 8px;
+     background: white;
+     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+ 
+ body {
+     display: flex;
+     height: 100vh;
+     justify-content: center;
+     align-items: center;
+     background-color: #f7f7f7;
+     font-family: 'Khmer OS Battambang', Arial, sans-serif;
+ }
+ 
+ form,
+ div {
+     border: 1px solid #ccc;
+     padding: 20px 30px;
+     background-color: white;
+     border-radius: 10px;
+     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+     text-align: center;
+ }
