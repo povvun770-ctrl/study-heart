@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: 'Khmer OS Battambang';
+    background: #3b65d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    width: 300px;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: white;
+    padding: 20px;
+}
+
+h2 {
+    color: white;
+    margin-top: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    background: #e6e6e6;
+}
+
+button:hover {
+    background: #d4d4d4;
+}
+
+
+/* ១. កំណត់ផ្ទៃខាងក្រោយធំ (ពណ៌ខៀវដូចក្នុងរូបថតរបស់អ្នក) */
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    /* ដាក់ឱ្យនៅកណ្តាលផ្ដេក */
+    align-items: center;
+    /* ដាក់ឱ្យនៅកណ្តាលបញ្ឈរ */
+    height: 110vh;
+    background-color: #3b5998;
+    /* ពណ៌ខៀវ Background ខាងក្រោយ */
+    font-family: 'Khmer OS Battambang', sans-serif;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 30px;
+    /* ធ្វើឱ្យជ្រុងមូល */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    /* បន្ថែមស្រមោលឱ្យមើលទៅអណ្តែត */
+    text-align: center;
+    width: 300px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    /* បន្ថែមបន្ទាត់រឹមស្តើងៗ */
+}
+
+
+/* ៣. រចនាអក្សរចំណងជើង */
+
+h2 {
+    color: white;
+    margin-bottom: 25px;
+}
+
+
+/* ៤. រចនាប៊ូតុង */
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+    /* ពណ៌ប្រផេះស្រាលដូចក្នុងរូបភាព */
+    color: #333;
+    font-family: 'Khmer OS Battambang';
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #d0d0d0;
+    transform: scale(1.02);
+    /* រីកធំបន្តិចពេលដាក់ Mouse លើ */
+}
