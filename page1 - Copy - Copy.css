@@ -1,0 +1,28 @@
+/* Ensure the footer takes up the full width and clears any side-by-side elements */
+
+.main-footer {
+    clear: both;
+    width: 100%;
+    padding: 20px 0;
+    background-color: #f1f1f1;
+    /* Or whatever color you prefer */
+    text-align: center;
+    margin-top: 40px;
+    /* Adds space between your books and the footer */
+}
+
+.footer-links {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.copyright-text {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
