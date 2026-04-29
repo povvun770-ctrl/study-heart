@@ -1,0 +1,46 @@
+.body {
+    font-family: 'Khmer OS Battambang', sans-serif;
+    background-color: #5c73c6;
+}
+
+. .book-list-container {
+    margin: 20px auto;
+    max-width: 450px;
+    text-align: left;
+}
+
+.book-list {
+    list-style: none;
+    padding: 0;
+}
+
+.book-list li {
+    margin-bottom: 10px;
+}
+
+.book-list a {
+    display: block;
+    background-color: #9f9cbd;
+    color: #f7f6f6;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #5788d2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    font-size: 16px;
+    font-family: 'Khmer OS Battambang', sans-serif;
+}
+
+.book-list a:hover {
+    background-color: #f1f1f1;
+    color: rgb(162, 161, 187);
+    transform: translateX(10px);
+    border-color: #3498db;
+}
+
+h3 {
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 30px;
+}
